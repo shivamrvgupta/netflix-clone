@@ -1,0 +1,45 @@
+@media only screen and (min-width: 820px){
+  nav .logo{
+    width: 80px;
+    cursor: pointer;
+  }
+  .header-content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+}
+
+
+@media only screen and (max-width: 600px){
+  nav{
+    margin: 0 1.5rem;
+  }
+  nav .logo{
+    width: 80px;
+  }
+  nav button{
+    padding: 4px 8px;
+    font-size: .8rem;
+  }
+  option{
+    line-height: 1.3em;
+    overflow: hidden;
+    white-space: nowrap;
+
+  }
+  .l-btn img {
+    width: 10px;
+    margin: 0 8px;
+  }
+  .header-content{
+    position: unset;
+    transform: none;
+    padding-top: 150px;
+  }
+  .header-content h1{
+    font-size: 30px;
+  }
+}
